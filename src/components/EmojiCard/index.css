@@ -1,0 +1,33 @@
+.emoji-item {
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #ffffff30;
+    background-color: #ffffff33;
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .emoji-img {
+    width: 80px;
+  }
+  
+  .emoji-btn {
+    background-color: transparent;
+    outline: none;
+    border-width: 0px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .emoji-item {
+      width: 32%;
+      padding: 25px;
+    }
+    .emoji-img {
+      width: 50px;
+    }
+  }

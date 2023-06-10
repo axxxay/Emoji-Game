@@ -1,0 +1,76 @@
+.win-or-lose-card {
+    display: flex;
+    background-color: #ffffff33;
+    align-items: center;
+    padding: 30px;
+    width: 70%;
+    border: 2px solid #ffffff30;
+    border-radius: 20px;
+  }
+  
+  .win-or-lose-content {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .heading {
+    font-size: 50px;
+    color: #ffffff;
+  }
+  
+  .won-or-lose-img {
+    width: 40%;
+  }
+  
+  .best-score {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+  
+  .final-score {
+    color: #6a59ff;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 10px;
+    margin-top: 3px;
+  }
+  
+  .play-again-btn {
+    background-color: #ffce27;
+    outline: none;
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 15px;
+    border-width: 0px;
+    color: #3d3d3d;
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .won-or-lose-img {
+      order: 1;
+      width: 50%;
+    }
+    .win-or-lose-content {
+      order: 2;
+    }
+    .win-or-lose-card {
+      flex-direction: column;
+      padding: 15px;
+      width: 85%;
+    }
+    .heading {
+      font-size: 26px;
+    }
+    .best-score {
+      font-size: 16px;
+    }
+    .final-score {
+      font-size: 26px;
+    }
+    .play-again-btn {
+      margin-bottom: 15px;
+    }
+  }
